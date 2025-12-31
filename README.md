@@ -69,31 +69,30 @@ Android / Edge Inference (llama.cpp)
 
 ## 4. Repository Structure (EXACT)
 
-AI-ML-Fine-Tune/
-│
-├── data/
-│ └── raw/
-│ └── final_dataset_instruct.jsonl
-│
-├── scripts/
-│ ├── 01_validate_dataset.py
-│ ├── 02_baseline_inference.py
-│ ├── 03_prepare_subset.py
-│ ├── 04_train_lora.py
-│ ├── 05_infer_with_lora.py
-│ ├── 06_qlo_ra_preflight.py
-│ ├── 07_train_qlora.py
-│ └── 08_merge_qlora.py
-│
-├── outputs/ (ignored by git)
-│ ├── lora_adapter/
-│ ├── qlora_adapter/
-│ ├── merged_model/
-│ ├── tinyllama-qlora-fp16.gguf
-│ └── tinyllama-qlora-q4_k_m.gguf
-│
-├── .gitignore
-└── README.md
+    AI-ML-Fine-Tune/
+    ├── data/
+    │   └── raw/
+    │       └── final_dataset_instruct.jsonl
+    │
+    ├── scripts/
+    │   ├── 01_validate_dataset.py
+    │   ├── 02_baseline_inference.py
+    │   ├── 03_prepare_subset.py
+    │   ├── 04_train_lora.py
+    │   ├── 05_infer_with_lora.py
+    │   ├── 06_qlo_ra_preflight.py
+    │   ├── 07_train_qlora.py
+    │   └── 08_merge_qlora.py
+    │
+    ├── outputs/                 (ignored by git)
+    │   ├── lora_adapter/
+    │   ├── qlora_adapter/
+    │   ├── merged_model/
+    │   ├── tinyllama-qlora-fp16.gguf
+    │   └── tinyllama-qlora-q4_k_m.gguf
+    │
+    ├── .gitignore
+    └── README.md
 
 
 
