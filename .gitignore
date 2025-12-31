@@ -1,0 +1,42 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.venv/
+.env/
+
+# =========================
+# Datasets (raw / large)
+# =========================
+data/raw/*
+!data/raw/.gitkeep
+
+# =========================
+# Training outputs (NEVER COMMIT)
+# =========================
+outputs/
+*.gguf
+*.bin
+*.safetensors
+*.pt
+*.ckpt
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
